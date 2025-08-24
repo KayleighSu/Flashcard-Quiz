@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #718f5a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #ffffff;
+  width: 80vw;         /* 80% of viewport width */
+  max-width: 600px;    /* optional max width */
+  height: 70vh;        /* 70% of viewport height */
+  border-radius: 15px;
+  box-shadow: 0 0 15px #091c04;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center content vertically */
+  align-items: center;     /* center content horizontally */
+  padding: 20px;
+  box-sizing: border-box;  /* includes padding in width/height */
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;          /* big text */
+  font-weight: bold;       /* bold */
+  margin-bottom: 15px;     /* space between title and question */
+  color: #333;             /* optional color */
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
